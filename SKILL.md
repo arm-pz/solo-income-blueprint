@@ -8,8 +8,10 @@ description: >-
   business model fits them, how to turn a skill they already have into income, how
   to get a first paying customer, or wants a step-by-step plan for a side business
   or one-person business. Not for job hunting
-  (application-pilot, applicant-kit), SEO for an existing site (seo-audit), or
-  privacy and legal pages (paper-trail).
+  (application-pilot, applicant-kit), SEO for an existing site (seo-audit),
+  privacy and legal pages (paper-trail), or running the whole launch end to end,
+  from offer to shipped and promoted product (the solo-launcher agent in the
+  caffeinity plugin, which runs this skill as its first step).
 ---
 
 # Solo income blueprint
