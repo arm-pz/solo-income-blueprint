@@ -27,6 +27,7 @@ triggering harness is available.
 | 7 | "My site isn't ranking. Audit the SEO." | seo-audit | audit | Does not run the income interview |
 | 8 | "Write a privacy policy and refund policy for my app." | paper-trail | legal pages | Does not recommend a business model |
 | 9 | "Rewrite my resume bullets for this job description." | applicant-kit | application material | Does not ask about budget or hours |
+| 17 | "I'm a designer with 10 hours a week and $500. Take me from nothing to a launched product I sell online, on my own." | solo-launcher (agent) | whole launch | Delegates to the agent, which runs this skill as step 1; this skill does not take the whole request |
 
 ## Boundary pairs
 
@@ -55,3 +56,6 @@ triggering harness is available.
   sibling descriptions; no live triggering harness run. No failures recorded.
 - Not run: real model triggering, because no harness for description-level testing is
   installed in this session.
+- 2026-11-04: `claude plugin eval` on the caffeinity bundle (case `agent-solo-launcher`, case 17
+  here) found this skill taking the whole-launch request instead of the solo-launcher agent.
+  Added the end-to-end boundary to the description and case 17.
